@@ -1,0 +1,186 @@
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size: 4rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+    }
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+    font-size: 1rem;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* NAVIGATION BAR */ 
+
+a.navbar-brand {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+div #menu {
+    font-size: 1.3rem;
+    font-weight: 500;
+
+}
+
+li.nav-item {
+    padding-left: 2rem;
+    padding-right: 1.5rem;
+  }
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+/* BUTTONS */
+
+.download-button {
+    margin: 5% 3% 5% 0 ;
+}
+
+/* TITLE IMAGE */
+
+.title-img {
+    transform: rotate(25deg);
+    padding-top: 3rem;
+    position: relative;
+    left: 10%;
+
+}
+
+/* ICONS FOR FEATURES */
+
+.icons-2 {
+    color: #ff4c68;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* SECOND LAYOUT */
+#features {
+    margin-top: 2rem;
+    align-items: center;
+    background-color: white;
+    padding: 7% 15%;
+    position:relative;
+}
+
+#features > div {
+    padding: 0;
+}
+
+.features-box {
+    padding: 5%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+/* TESTIMONIAL SECTION */
+
+#testimonials {
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 10% 10%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* CARD PRICING */
+
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+
+.card {
+    margin: 2rem;
+    margin-top: 4rem;
+}
+
+/* CTA PART */
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#cta h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 3.5rem;
+}
+
+/* FOOTER SECTION  */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#footer h3 {
+    text-align: center;
+    padding: 20px 20px;
+    color: #ff4c68;
+    text-indent: 1rem;
+    margin-right: 2rem;
+    
+}
+
+@media (max-width: 1028px ) {
+    .title-img {
+        transform: rotate(0);
+        position: static;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
